@@ -1,0 +1,21 @@
+feature,rank,Source
+ICM Decision,1,Other Class
+ARRHYTHMIA Decision,1,Other Class
+wavelet-LL gldm LargeDependenceLowGrayLevelEmphasis,2,T1 Map
+wavelet-LH glcm ClusterTendency,3,T1 Map
+wavelet-HH glcm InverseVariance,4,T1 Map
+original glszm GrayLevelNonUniformity,5,T1 Map
+wavelet-LL ngtdm Busyness,6,T1 Map
+wavelet-LL glszm SizeZoneNonUniformity,7,T1 Map
+wavelet-HH gldm DependenceVariance,8,T1 Map
+wavelet-HH glszm SmallAreaLowGrayLevelEmphasis,9,T1 Map
+wavelet-HL glcm Idn,10,T1 Map
+wavelet-HL firstorder Maximum,11,T1 Map
+wavelet-HL firstorder Median,12,T1 Map
+wavelet-HL firstorder Skewness,13,T1 Map
+wavelet-HL ngtdm Contrast,14,T1 Map
+wavelet-HL firstorder Range,15,T1 Map
+wavelet-HH firstorder 10Percentile,16,T1 Map
+wavelet-HL firstorder 90Percentile,17,T1 Map
+wavelet-HL glcm MaximumProbability,18,T1 Map
+wavelet-HH glszm ZoneVariance,19,T1 Map

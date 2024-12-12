@@ -1,0 +1,21 @@
+feature,rank,Source
+lbp-2D glrlm LongRunEmphasis,1,T1 Map
+lbp-2D glrlm LongRunHighGrayLevelEmphasis,1,T1 Map
+diastolic bp,1,Covariate
+p31,1,Covariate
+wavelet-LH firstorder 90Percentile,1,T1 Map
+lbp-2D gldm DependenceVariance,1,T1 Map
+RVESV (mL),1,Cine
+wavelet-HL firstorder Uniformity,1,T1 Map
+wavelet-LL gldm DependenceNonUniformityNormalized,1,T1 Map
+LVEDV (mL),1,Cine
+wavelet-LL glszm ZoneEntropy,2,T1 Map
+WT AHA 9 (mm),3,Cine
+wavelet-LL glrlm RunLengthNonUniformityNormalized,4,T1 Map
+wavelet-LH firstorder RobustMeanAbsoluteDeviation,5,T1 Map
+wavelet-HH glrlm RunVariance,6,T1 Map
+wavelet-LH firstorder InterquartileRange,7,T1 Map
+wavelet-LH glcm MaximumProbability,8,T1 Map
+wavelet-HH glszm GrayLevelNonUniformity,9,T1 Map
+wavelet-LL firstorder Median,10,T1 Map
+RVEF (%),11,Cine

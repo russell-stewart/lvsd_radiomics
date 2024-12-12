@@ -1,0 +1,55 @@
+# Settings for radiomic feature extraction
+# Starting point: Features recommended by Pyradiomis for 2D MR feature extraction
+# with extra settings from exampleMR_NoResampling by Pyradiomics
+# Additional features enabled:
+  # LocalBinaryPattern2D: per use in PMID 34957254 (sudden cardiac death prognostication from ShMOLLI maps)
+
+setting:
+  label: 1
+  normalize: false
+  force2D: true  
+  resampledPixelSpacing: [1.0,1.0,1.0]
+  binWidth: 16 #going off observed range of 1200 in preliminary testing. target nbinsE(16,128)
+  voxelArrayShift: 190 #should be set to 3*SD (such that few voxels are negative)
+  resegmentRange: [-3,3]
+  resegmentMode: "sigma"
+  resegmentShape: true
+
+imageType:
+  Original: {}
+  Wavelet: {}
+  LBP2D:
+    lbp2DSamples: 8
+    lbp2DRadius: 3
+
+featureClass:
+  shape2D:
+  firstorder:
+  glcm:
+    - 'Autocorrelation'
+    - 'JointAverage'
+    - 'ClusterProminence'
+    - 'ClusterShade'
+    - 'ClusterTendency'
+    - 'Contrast'
+    - 'Correlation'
+    - 'DifferenceAverage'
+    - 'DifferenceEntropy'
+    - 'DifferenceVariance'
+    - 'JointEnergy'
+    - 'JointEntropy'
+    - 'Imc1'
+    - 'Imc2'
+    - 'Idm'
+    - 'Idmn'
+    - 'Id'
+    - 'Idn'
+    - 'InverseVariance'
+    - 'MaximumProbability'
+    - 'SumEntropy'
+    - 'SumSquares'
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
+

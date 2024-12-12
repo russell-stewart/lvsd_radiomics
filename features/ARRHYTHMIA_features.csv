@@ -1,0 +1,21 @@
+feature,rank,Source
+wavelet-LL glszm SmallAreaEmphasis,1,T1 Map
+lbp-2D firstorder Skewness,1,T1 Map
+wavelet-LL ngtdm Contrast,1,T1 Map
+RVEF (%),1,Cine
+LVESV (mL),1,Cine
+wavelet-LH glcm Correlation,1,T1 Map
+RVESV (mL),1,Cine
+wavelet-HH glszm GrayLevelNonUniformity,1,T1 Map
+wavelet-HL glcm MaximumProbability,1,T1 Map
+ICM Decision,1,Other Class
+wavelet-HL firstorder Maximum,2,T1 Map
+wavelet-HL glcm Idn,3,T1 Map
+wavelet-LL glszm SizeZoneNonUniformityNormalized,4,T1 Map
+original glszm SmallAreaEmphasis,5,T1 Map
+wavelet-LL firstorder Kurtosis,6,T1 Map
+LVM (g),7,Cine
+WT AHA 12 (mm),8,Cine
+wavelet-HH gldm SmallDependenceLowGrayLevelEmphasis,9,T1 Map
+wavelet-HH gldm DependenceVariance,10,T1 Map
+RVEDV (mL),11,Cine

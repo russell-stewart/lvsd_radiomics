@@ -1,0 +1,11 @@
+pyradiomics
+scikit-learn>=1.5
+numpy
+pandas
+matplotlib
+ipywidgets
+opencv-python
+SimpleITK
+tqdm
+mlstatkit
+joblib
